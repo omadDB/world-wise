@@ -6,7 +6,7 @@ import {
   useCallback,
 } from "react"
 
-const BASE_URL = "http://localhost:8000"
+const BASE_URL = "https://world-wise-json-server.vercel.app"
 
 const CitiesContext = createContext()
 
