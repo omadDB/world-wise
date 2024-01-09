@@ -1,0 +1,40 @@
+{
+  "cities": [
+    {
+      "cityName": "Tomdibuloq",
+      "country": "Uzbekistan",
+      "emoji": "🇺🇿",
+      "date": "2023-12-02T17:27:53.536Z",
+      "notes": "",
+      "position": {
+        "lat": "41.391255997063126",
+        "lng": "63.61392794337075"
+      },
+      "id": 7
+    },
+    {
+      "cityName": "Birata",
+      "country": "Turkmenistan",
+      "emoji": "🇹🇲",
+      "date": "2023-12-09T11:06:28.853Z",
+      "notes": "",
+      "position": {
+        "lat": "40.76279654026784",
+        "lng": "60.22730778808111"
+      },
+      "id": 9
+    },
+    {
+      "cityName": "Dhuizon",
+      "country": "France",
+      "emoji": "🇫🇷",
+      "date": "2023-12-16T08:25:11.617Z",
+      "notes": "Amazing trip!\n",
+      "position": {
+        "lat": "47.60616304386874",
+        "lng": "1.7138671875000002"
+      },
+      "id": 10
+    }
+  ]
+}

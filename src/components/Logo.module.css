@@ -1,0 +1,18 @@
+.logo {
+  height: 5.2rem;
+}
+
+.closeBtn {
+  border: none;
+  outline: none;
+  background: none;
+  color: var(--color-light--1);
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+
+.closeBtn svg {
+  width: 64px;
+  height: 64px;
+}
