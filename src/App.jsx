@@ -3,7 +3,7 @@ import { Suspense, lazy } from "react"
 
 import { CitiesProvider } from "./contexts/CitiesContext"
 import { AuthProvider } from "./contexts/FakeAuthContext"
-import ProtectedRoute from "./pages/ProtectedROute"
+import ProtectedRoute from "./pages/ProtectedRoute"
 
 import CityList from "./components/CityList"
 import CountryList from "./components/CountryList"
