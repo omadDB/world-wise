@@ -95,6 +95,21 @@ function CitiesProvider({ children }) {
     fetchCities()
   }, [])
 
+  const fetchCitiesAgain = useCallback(async () => {
+    try {
+      dispatch({ type: "loading" })
+
+      const res = await fetch(`${BASE_URL}/cities`)
+      const data = await res.json()
+      dispatch({ type: "cities/loaded", payload: data })
+    } catch {
+      dispatch({
+        type: "rejected",
+        payload: "There was an error loading data...",
+      })
+    }
+  }, [])
+
   const getCity = useCallback(
     async function getCity(id) {
       if (+id === currentCity.id) return
@@ -166,6 +181,7 @@ function CitiesProvider({ children }) {
         getCity,
         createCity,
         deleteCity,
+        fetchCitiesAgain,
         // sidebarIsOpen,
         // setSidebarIsOpen,
       }}
